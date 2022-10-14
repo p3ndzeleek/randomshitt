@@ -14,3 +14,10 @@
 #     print("Tak")
 # else:
 #     print("Nie")
+
+#zad3
+k, l, m = int(input()), int(input()), int(input())
+if (k == l) or (k == m) or (l == m):
+    print("tak") 
+else:
+    print("nie")
