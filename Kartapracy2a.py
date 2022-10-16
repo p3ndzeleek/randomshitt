@@ -1,4 +1,4 @@
-# #zad1
+ #zad1
 # a = int(input())
 # b = int(input())
 # if (a+b) %2 ==0:
@@ -15,7 +15,7 @@
 # else:
 #     print("Nie")
 
-#zad3
+#zad3 
 # k, l, m = int(input()), int(input()), int(input())
 # if (k == l) or (k == m) or (l == m):
 #     print("tak") 
@@ -34,6 +34,23 @@
 # if d<a and d<b and d<c:
 #     print("d jest najmnijesze")
 
-#5
+# Zad 5
 
-a, b, c = int(input()), int(input()), int(input())
+# a, b, c, = int(input("podaj a: ")), int(input("podaj b: ")), int(input("podaj c: "))
+# if a < (b+c) and b < (c+a) and c< (a+b):
+#   print('TAK')
+# else:
+#   print('NIE')
+
+# Zad 6
+
+a,b,c = int(input("podaj a = ")),int(input("podaj b = ")),int(input("podaj c = "))
+
+if (a*a+b*b == c*c) or (a*a+c*c == b*b) or (c*c+b*b == a*a):
+    print("prostokątny")
+else:
+    if (a*a+b*b < c*c) or (a*a+c*c < b*b) or (c*c+b*b < a*a):
+        print("rozwartokątny")
+    else:
+        if (a*a+b*b > c*c) or (a*a+c*c > b*b) or (c*c+b*b > a*a):
+            print("ostrokątny")
