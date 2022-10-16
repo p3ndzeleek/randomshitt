@@ -16,12 +16,17 @@
 #     print("Nie")
 
 #zad3 
-# k, l, m = int(input()), int(input()), int(input())
-# if (k == l) or (k == m) or (l == m):
-#     print("tak") 
+# k, l, m = int(input("podaj k " )), int(input("podaj l ")), int(input("podaj m "))
+# if (k == l) and k>m or k<m:
+#     print("k jest równe l"  ) 
 # else:
-#     print("nie")
-
+#     if (k == m) and k>l or k<l:
+#             print("k jest równe m"  )
+#     else:
+#         if (l == m) and l>m or l<m:
+#             print("l jest równe m"  )
+#         else:
+#             prnit(" nie ma żadneych liczb takich samych")
 #zad4
 
 # a, b, c, d, = int(input()), int(input()), int(input()), int(input())
@@ -44,13 +49,13 @@
 
 # Zad 6
 
-a,b,c = int(input("podaj a = ")),int(input("podaj b = ")),int(input("podaj c = "))
+# a,b,c = int(input("podaj a = ")),int(input("podaj b = ")),int(input("podaj c = "))
 
-if (a*a+b*b == c*c) or (a*a+c*c == b*b) or (c*c+b*b == a*a):
-    print("prostokątny")
-else:
-    if (a*a+b*b < c*c) or (a*a+c*c < b*b) or (c*c+b*b < a*a):
-        print("rozwartokątny")
-    else:
-        if (a*a+b*b > c*c) or (a*a+c*c > b*b) or (c*c+b*b > a*a):
-            print("ostrokątny")
+# if (a*a+b*b == c*c) or (a*a+c*c == b*b) or (c*c+b*b == a*a):
+#     print("prostokątny")
+# else:
+#     if (a*a+b*b < c*c) or (a*a+c*c < b*b) or (c*c+b*b < a*a):
+#         print("rozwartokątny")
+#     else:
+#         if (a*a+b*b > c*c) or (a*a+c*c > b*b) or (c*c+b*b > a*a):
+#             print("ostrokątny")
